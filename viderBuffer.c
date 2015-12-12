@@ -1,6 +1,8 @@
 void viderBuffer(void)
 {
-  int c;
-  while((c=getchar()) != EOF && c != '\n');
- 
+    int c = 0;
+    while (c != '\n' && c != EOF)
+    {
+        c = getchar();
+    }
 }
